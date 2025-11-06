@@ -22,10 +22,7 @@
   <body class="d-flex flex-column h-100">
     <audio id="click-sound" src="film_roll.mp3" preload="auto"></audio>
     <div class="overlay"></div>
-    <nav
-      class="container-fluid navbar navbar-expand-lg bg-black mb-5"
-      style="--bs-bg-opacity: 0.1"
-    >
+    <nav class="container-fluid navbar navbar-expand-lg mb-5 box">
       <div class="container">
         <a class="navbar-brand pb-0" href="#"
           ><h2 class="mb-0">
@@ -47,7 +44,23 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            vie="0 0 24 24"
+          >
+            <g fill="currentColor">
+              <path
+                d="M8 6.983a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2zM7 12a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m1 3.017a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10m-2 0a8 8 0 1 1-16 0a8 8 0 0 1 16 0"
+                clip-rule="evenodd"
+              />
+            </g>
+          </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -76,10 +89,7 @@
     <main class="container mb-5">
       <div class="row g-5">
         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 d-flex">
-          <div
-            class="card bg-black rounded-0 border-0 h-100 d-flex flex-column"
-            style="--bs-bg-opacity: 0.1"
-          >
+          <div class="card rounded-0 border-0 h-100 d-flex flex-column box">
             <img src="casablanca.jpg" class="card-img-top p-2" alt="..." />
             <div class="card-body">
               <h4 class="card-title">casablanca</h4>
@@ -87,15 +97,12 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
               </p>
-              <a href="#" class="btn btn-dark">Watch Now</a>
+              <a href="#" class="btn btn-dark rounded-0">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 d-flex">
-          <div
-            class="card bg-black rounded-0 border-0 h-100 d-flex flex-column"
-            style="--bs-bg-opacity: 0.1"
-          >
+          <div class="card rounded-0 border-0 h-100 d-flex flex-column box">
             <img src="citizen.jpg" class="card-img-top p-2" alt="..." />
             <div class="card-body">
               <h4 class="card-title">citizen kane</h4>
@@ -103,15 +110,12 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
               </p>
-              <a href="#" class="btn btn-dark">Watch Now</a>
+              <a href="#" class="btn btn-dark rounded-0">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 d-flex">
-          <div
-            class="card bg-black rounded-0 border-0 h-100 d-flex flex-column"
-            style="--bs-bg-opacity: 0.1"
-          >
+          <div class="card rounded-0 border-0 h-100 d-flex flex-column box">
             <img src="wonderful.jpg" class="card-img-top p-2" alt="..." />
             <div class="card-body">
               <h4 class="card-title">it's a wonderful life</h4>
@@ -119,15 +123,12 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
               </p>
-              <a href="#" class="btn btn-dark">Watch Now</a>
+              <a href="#" class="btn btn-dark rounded-0">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 d-flex">
-          <div
-            class="card bg-black rounded-0 border-0 h-100 d-flex flex-column"
-            style="--bs-bg-opacity: 0.1"
-          >
+          <div class="card rounded-0 border-0 h-100 d-flex flex-column box">
             <img src="eve.jpg" class="card-img-top p-2" alt="..." />
             <div class="card-body">
               <h4 class="card-title">all about eve</h4>
@@ -135,16 +136,28 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
               </p>
-              <a href="#" class="btn btn-dark">Watch Now</a>
+              <a href="#" class="btn btn-dark rounded-0">Watch Now</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="row mt-5">
+        <div class="col-auto box pt-3">
+          <p>
+            This is just a template website. If you would like to see some of my
+            other works, go to my
+            <a href="https://arontorok.github.io/" class="point"
+              >portfolio website</a
+            >.
+          </p>
+          <p>
+            Alternatively, seacrh for https://arontorok.github.io/ manually
+            (clicking might be a bit buggy)
+          </p>
+        </div>
+      </div>
     </main>
-    <footer
-      class="container-fluid mt-auto bg-black pt-3"
-      style="--bs-bg-opacity: 0.1"
-    >
+    <footer class="container-fluid mt-auto pt-3 box">
       <div class="container">
         <h2 class="text-black text-center">
           <img
